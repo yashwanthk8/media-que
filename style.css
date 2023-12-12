@@ -1,0 +1,49 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+}
+.lang{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+}
+.item{
+    background-color: rgb(247, 205, 205);
+    height: 14vh;
+    width: 30vh;
+    text-align: center;   
+}
+.btn1{
+    margin-left: 12px;
+    padding: 9px 20px;
+    background-color: aquamarine;
+    border-style: none;
+    border-radius: 7px;
+}
+.btn2{
+    padding: 9px 20px;
+    background-color: aqua;
+    border-style: none;
+    border-radius: 7px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 30px;
+    gap: 5vh;
+}
+@media screen and (max-width: 382px){
+    /* .grid{
+        grid-template-columns: 1fr;
+        background-color: red;
+    } */
+    body{
+        background-color: brown;
+    }
+}
