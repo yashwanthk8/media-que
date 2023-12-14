@@ -39,10 +39,10 @@ body{
     gap: 5vh;
 }
 @media screen and (max-width: 382px){
-    /* .grid{
+    .grid{
         grid-template-columns: 1fr;
         background-color: red;
-    } */
+    }
     body{
         background-color: brown;
     }
