@@ -38,7 +38,7 @@ body{
     border-radius: 30px;
     gap: 5vh;
 }
-@media screen and (max-width: 382px){
+@media screen and (max-width: 576px){
     .grid{
         grid-template-columns: 1fr;
         background-color: red;
